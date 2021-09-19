@@ -1,0 +1,40 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+}
+.login-form {
+    flex-direction: column;
+    display: flex;
+}
+.login-form h2 {
+    color: rgb(9, 155, 212);
+    text-align: center;
+}
+.login-form input,
+button {
+    font-size: 1em;
+    padding-left: 10px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.login-form button {
+    background: rgb(5, 106, 153);
+    color: blanchedalmond;
+    font-size: 700;
+    padding: 5px;
+}
+#margin-top {
+    text-decoration: none;
+    margin-top: 10px;
+    color: mediumblue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(75, 77, 75);
+}
